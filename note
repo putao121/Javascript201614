@@ -1,0 +1,22 @@
+1.常用命令：
+1).win+R:打开命令行
+2)git --version:查看git的版本，知道git安装是否成功；
+3）清楚命令行：cls(window系统) clear(linux,mac);
+4)ls -a:查看当前文件夹下所有的文件（隐藏+显示的文件夹）
+2.git配置：
+git config --global user.name "你的github用户名"
+git config --global user.email "你的github邮箱"
+3.创建一个本地仓库：
+    1、新建一个文件夹
+    2、进入这个文件夹，右键git bash or 左手shift+右键“在此处打开命令窗口”
+    3、git init :把本地仓库初始化为一个git可以管理的仓库；
+4.建立远程仓库：
+    1.右上角“+”
+    2.输入仓库名称- create
+5.把“本地仓库”所有内容，推送到“远程仓库”：
+    1）git add .
+    2) git commit -m"注释内容"
+    3) git push origin master
+
+
+
