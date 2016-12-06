@@ -3,6 +3,8 @@
 2)git --version:查看git的版本，知道git安装是否成功；
 3）清楚命令行：cls(window系统) clear(linux,mac);
 4)ls -a:查看当前文件夹下所有的文件（隐藏+显示的文件夹）
+5）添加远程通道：git remote add XXXX;
+
 2.git配置：
 git config --global user.name "你的github用户名"
 git config --global user.email "你的github邮箱"
@@ -22,5 +24,12 @@ git config --global user.email "你的github邮箱"
     https://github.com/zhufengpeixun/Javascript201614.git
     2）把自己的远程仓库，下载到本地；
     git clone https://github.com/leilei1238/Javascript201614.git
+    3)连接老师远程通道：
+    git remote add teacher https://github.com/zhufengpeixun/Javascript201614.git
+    查看链接了哪些通道：git remote -v
+    删除远程通道：git remote rm 通道名称
 
+    4)更新老师远程通道
+    git remote update teacher
+    git pull teacher master
 
