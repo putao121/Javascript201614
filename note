@@ -17,6 +17,10 @@ git config --global user.email "你的github邮箱"
     1）git add .
     2) git commit -m"注释内容"
     3) git push origin master
-
+6.学员更新老师讲义（开发人员更新项目）
+    1）登录自己的github，然后把老师讲义地址，复制到地址栏
+    https://github.com/zhufengpeixun/Javascript201614.git
+    2）把自己的远程仓库，下载到本地；
+    git clone https://github.com/leilei1238/Javascript201614.git
 
 
